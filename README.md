@@ -52,6 +52,10 @@ Once the above command is run, the Jacoco Test report containing the code covera
 
 ## Dockerize Application
 
+### Create Docker Image   
 `docker build -t patient-hub-service .`
 
+### Run docker image
 `docker run -p 8080:8080 patient-hub-service`
+
+Pipeline image is included in img.png
